@@ -47,6 +47,7 @@ const FortuneGrid = ({ data, userData }) => {
                     gender: userData.gender,
                     birthDate: userData.birthDate,
                     calendarType: userData.calendarType,
+                    birthTime: userData.birthTime
                 },
             );
             setLuckData(response.data);
