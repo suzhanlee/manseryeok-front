@@ -56,4 +56,20 @@ export default StyleSheet.create({
         backgroundColor: "#e2e8f0",
         borderColor: "#94a3b8",
     },
+    timeInputContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    timeInput: {
+        flex: 1,
+        marginRight: 10,
+    },
+    unknownButton: {
+        padding: 10,
+        borderRadius: 5,
+        backgroundColor: "#f0f0f0",
+    },
+    unknownButtonText: {
+        color: "#333",
+    },
 });
